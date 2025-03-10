@@ -1,0 +1,81 @@
+/* Reset CSS để đảm bảo tính nhất quán trên các trình duyệt */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Định dạng body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Định dạng tiêu đề */
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Định dạng header */
+header {
+    background: #0056b3;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Định dạng container chính */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Định dạng liên kết */
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff6600;
+}
+
+/* Định dạng các nút */
+button {
+    background: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #cc5500;
+}
+
+/* Định dạng danh sách */
+ul {
+    list-style: none;
+}
+
+/* Định dạng footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
